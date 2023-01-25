@@ -14,17 +14,12 @@ import { theme } from "./styles/theme"
 import { Main } from "./styles/pages"
 import { Body } from "./components/Body"
 
-
-
 export const App = () => {
   
-
-
   return (
     <ChakraProvider theme={theme}>
       <Main>
         <Header />
-
         <Body />
       </Main>
     </ChakraProvider >

@@ -19,12 +19,9 @@ export function Header() {
         <>
             <Flex
                 as="header"
-
                 w="100%"
                 h="10vh"
-
                 p="6"
-
                 maxWidth={850}
                 mx="auto"
                 align="center"
@@ -67,7 +64,7 @@ export function Header() {
                                     Linkedin
                                 </NavLink>
 
-                                <NavLink href='https://brunoaiolfi.github.io/portfolio/' >
+                                <NavLink href='http://portfolio-smoky-nu-47.vercel.app' >
                                     Portfólio
                                 </NavLink>
 
